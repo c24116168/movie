@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>夜幕放映室 Noir Cinema Archive｜經典電影影評庫</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">🎬</span>
+        <span>夜幕放映室 <small>NOIR CINEMA</small></span>
+      </a>
+      <span style="font-size: 0.85rem; color: var(--text-muted);">經典光影筆記</span>
+    </div>
+  </header>
+
+  <section class="hero-banner">
+    <div class="container">
+      <span class="hero-kicker">CURATED FILM REVIEWS</span>
+      <h1>每一格膠卷，都是一場跨越時代的對話</h1>
+      <p>收錄影史經典作品的完整基本檔案、無雷觀影指南與深度劇情剖析。</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div class="controls-bar">
+      <div id="tagFilters" class="tag-filters"></div>
+      <input type="search" id="searchInput" class="search-input" placeholder="搜尋片名、導演或演員...">
+    </div>
+
+    <section id="moviesGrid" class="movies-grid" aria-label="電影影評列表"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>夜幕放映室 Noir Cinema Archive — Powered by AGENTS.md Workflow</p>
+    </div>
+  </footer>
+
+  <script src="js/movies-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

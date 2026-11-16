@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鬼店 The Shining｜夜幕放映室</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-icon">🎬</span>
+        <span>夜幕放映室 <small>NOIR CINEMA</small></span>
+      </a>
+      <nav>
+        <a href="../index.html" class="nav-link">← 返回片單總覽</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container review-detail">
+    <section class="movie-hero">
+      <div class="poster-frame">
+        <img src="../assets/posters/the-shining.jpg" alt="鬼店海報" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="poster-fallback" style="display: none;">
+          <span class="poster-badge">FEATURE PRESENTATION</span>
+          <div>
+            <h2 class="poster-fallback-en">THE SHINING</h2>
+            <p class="poster-fallback-zh">鬼店</p>
+          </div>
+          <span class="poster-fallback-dir">Dir. Stanley Kubrick</span>
+        </div>
+      </div>
+
+      <div class="movie-meta-panel">
+        <div class="tag-list">
+          <span class="tag">#驚悚</span>
+          <span class="tag">#心理恐怖</span>
+          <span class="tag">#懸疑</span>
+          <span class="tag">#經典</span>
+        </div>
+        <h1 class="movie-title">鬼店 <span class="movie-en-title">The Shining</span></h1>
+
+        <div class="scores-row">
+          <div class="score-badge imdb"><span class="score-label">IMDb</span><span class="score-value" data-empty="—"></span></div>
+          <div class="score-badge rt"><span class="score-label">爛番茄</span><span class="score-value" data-empty="—"></span></div>
+          <div class="score-badge mc"><span class="score-label">Metacritic</span><span class="score-value" data-empty="—"></span></div>
+        </div>
+
+        <dl class="info-grid">
+          <div><dt>年份</dt><dd></dd></div>
+          <div><dt>導演</dt><dd>史丹利·庫柏力克</dd></div>
+          <div><dt>片長</dt><dd></dd></div>
+          <div class="full-span"><dt>主要演員</dt><dd>傑克·尼克遜、雪莉·杜瓦、丹尼·勞埃德、史卡特曼·克洛瑟斯</dd></div>
+        </dl>
+
+        <div class="synopsis-box">
+          <h3>劇情簡介</h3>
+          <p>作家傑克為了尋找創作靈感，帶著妻子溫蒂與擁有通靈能力「閃靈」的兒子丹尼，接下冬季封山期間全景飯店的看管工作。隨著大雪封閉山路，飯店深處的幽靈與孤立感逐步吞噬傑克的理智。</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="review-article">
+      <section class="review-section">
+        <h2>無雷短評</h2>
+        <p>庫柏力克徹底顛覆了傳統鬼片依賴陰暗角落與突發驚嚇（Jump Scare）的套路——《鬼店》的恐怖發生在燈火通明、對稱工整的宏偉大廳之中。穩定器（Steadicam）貼地跟隨丹尼騎三輪車穿梭走廊的長鏡頭，創造出令人毛骨悚然的空間壓迫感。</p>
+        <p>傑克·尼克遜極具張力的面部表情與漸進式的精神崩解，讓這座與世隔絕的飯店化為人性黑暗面的放大鏡。</p>
+      </section>
+
+      <section class="review-section">
+        <div class="spoiler-header">
+          <h2>深度解析（含關鍵劇情劇透）</h2>
+          <button type="button" class="btn-spoiler" onclick="toggleSpoiler(this)">顯示有雷解析</button>
+        </div>
+        <div class="spoiler-box" hidden>
+          <p>全景飯店的空間結構本身就是一座迷宮——窗戶位置與走廊動線在建築邏輯上刻意矛盾，讓觀眾在潛意識中失去方向感。當溫蒂翻開傑克數週以來打出的厚厚稿紙，發現上面只有反覆排列的「只工作不玩耍，聰明傑克也變傻」時，理性徹底崩塌的寒意達到了頂峰。</p>
+          <p>片尾傑克凍死在雪地迷宮中，鏡頭隨即推向大廳牆上 1921 年國慶舞會的黑白照片——站在正中央微笑的正是傑克，暗示他從未逃離這座吞噬歷史與暴力的輪迴。</p>
+        </div>
+      </section>
+
+      <section class="review-section">
+        <h2>經典台詞</h2>
+        <blockquote class="movie-quote">
+          「強尼來了！」（Here's Johnny!）
+        </blockquote>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>夜幕放映室 Noir Cinema Archive — 個人經典電影影評庫</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>

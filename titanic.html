@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鐵達尼號 Titanic｜夜幕放映室</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../index.html" class="brand">
+        <span class="brand-icon">🎬</span>
+        <span>夜幕放映室 <small>NOIR CINEMA</small></span>
+      </a>
+      <nav>
+        <a href="../index.html" class="nav-link">← 返回片單總覽</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container review-detail">
+    <section class="movie-hero">
+      <div class="poster-frame">
+        <img src="../assets/posters/titanic.jpg" alt="鐵達尼號海報" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+        <div class="poster-fallback" style="display: none;">
+          <span class="poster-badge">FEATURE PRESENTATION</span>
+          <div>
+            <h2 class="poster-fallback-en">TITANIC</h2>
+            <p class="poster-fallback-zh">鐵達尼號</p>
+          </div>
+          <span class="poster-fallback-dir">Dir. James Cameron</span>
+        </div>
+      </div>
+
+      <div class="movie-meta-panel">
+        <div class="tag-list">
+          <span class="tag">#愛情</span>
+          <span class="tag">#災難</span>
+          <span class="tag">#史詩</span>
+          <span class="tag">#經典</span>
+        </div>
+        <h1 class="movie-title">鐵達尼號 <span class="movie-en-title">Titanic</span></h1>
+
+        <div class="scores-row">
+          <div class="score-badge imdb"><span class="score-label">IMDb</span><span class="score-value" data-empty="—"></span></div>
+          <div class="score-badge rt"><span class="score-label">爛番茄</span><span class="score-value" data-empty="—"></span></div>
+          <div class="score-badge mc"><span class="score-label">Metacritic</span><span class="score-value" data-empty="—"></span></div>
+        </div>
+
+        <dl class="info-grid">
+          <div><dt>年份</dt><dd></dd></div>
+          <div><dt>導演</dt><dd>詹姆斯·卡麥隆</dd></div>
+          <div><dt>片長</dt><dd></dd></div>
+          <div class="full-span"><dt>主要演員</dt><dd>李奧納多·狄卡皮歐、凱特·溫絲蕾、比利·贊恩、凱西·貝茲</dd></div>
+        </dl>
+
+        <div class="synopsis-box">
+          <h3>劇情簡介</h3>
+          <p>出身貴族卻受困於包辦婚姻的少女蘿絲，在豪華郵輪鐵達尼號的處女航上，遇見了隨性不羈的窮困畫家傑克。兩人在嚴格的階級藩籬下墜入愛河，卻在冰山撞擊船體的生死一夜面臨最殘酷的抉擇。</p>
+        </div>
+      </div>
+    </section>
+
+    <article class="review-article">
+      <section class="review-section">
+        <h2>無雷短評</h2>
+        <p>《鐵達尼號》之所以能跨越世代成為災難愛情片的標竿，在於導演卡麥隆極度精準的敘事節奏：前半段以細膩的時代考究與階級對照鋪陳情感，讓觀眾真正愛上這艘船與船上的人；後半段則在冰山撞擊後轉為窒息般的寫實求生。</p>
+        <p>即使早已知道這艘「永不沉沒之船」的歷史結局，每一次重溫依然會被其龐大的工業美學與純粹的情感張力深深震撼。</p>
+      </section>
+
+      <section class="review-section">
+        <div class="spoiler-header">
+          <h2>深度解析（含關鍵劇情劇透）</h2>
+          <button type="button" class="btn-spoiler" onclick="toggleSpoiler(this)">顯示有雷解析</button>
+        </div>
+        <div class="spoiler-box" hidden>
+          <p>片中最動人的對照不僅是頭等艙與三等艙的空間隔離，更是「活著」的定義。遇見傑克前的蘿絲雖身處金碧輝煌的頭等艙，靈魂卻如籠中鳥；而傑克帶給她的不是逃避，而是奪回人生主導權的勇氣。</p>
+          <p>最後在冰冷海面上的木板別離，傑克讓蘿絲承諾「無論發生什麼事都不要放棄」，這份承諾讓蘿絲在獲救後活出了自由而飽滿的一生——片尾床頭那一排她騎馬、開飛機的照片，正是對這段愛情最圓滿的回應。</p>
+        </div>
+      </section>
+
+      <section class="review-section">
+        <h2>經典台詞</h2>
+        <blockquote class="movie-quote">
+          「贏得這張船票是我這輩子最幸運的事，因為它讓我遇見了妳。」
+        </blockquote>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>夜幕放映室 Noir Cinema Archive — 個人經典電影影評庫</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
